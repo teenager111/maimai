@@ -1,0 +1,120 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="top-wrap">
+    <view class="top-image-wrap">
+      <image src='images/b.png' class="top-logo"></image>
+    </view>
+
+    <input class="search-btn" placeholder='搜索商品' placeholder-class="placeholder"></input>
+  </view>
+
+  <!-- <view>
+    <image src="images/pic.jpg"  mode="aspectFit"></image>
+  </view> -->
+
+  <view class="img-list">
+    <view class="one-item">
+      <view class="one-image">
+        <image src='images/a.png' class="icon"></image>
+      </view>
+      <view class="one-text">领优惠券</view>
+    </view>
+    <view class="one-item">
+      <view class="one-image">
+        <image src='images/a.png' class="icon"></image>
+      </view>
+      <view class="one-text">领优惠券</view>
+    </view>
+    <view class="one-item">
+      <view class="one-image">
+        <image src='images/a.png' class="icon"></image>
+      </view>
+      <view class="one-text">领优惠券</view>
+    </view>
+    <view class="one-item">
+      <view class="one-image">
+        <image src='images/a.png' class="icon"></image>
+      </view>
+      <view class="one-text">领优惠券</view>
+    </view>
+  </view>
+
+  <view class="goods-one">
+    <view>
+      <image src='images/logo@2x.png' class="goods-pic"></image>
+    </view>
+    <view class="wenzi">
+      <text>美的(Midea)吸尘器H1-L051B便携家用紫外线震动除湿器</text>
+      <text class="price">￥1.00</text>
+      <text class="oldprice">￥399.00</text>
+      <view class="sell-number">100件已售完</view>
+      <text class="start-buy">立即抢购</text>
+    </view>
+  </view>
+
+  <view class="goods-one">
+    <image src='images/logo@2x.png' class="goods-pic"></image>
+    <view class="goods-text">
+      <view class="top">美的(Midea)吸尘器H1-L051B便携家用紫外线震动除湿器</view>
+      <view class="price">￥1.00</view>
+      <view class="oldprice">￥399.00</view>
+      <view class="sell-number">100件已售完</view>
+      <view class="start-buy">立即抢购</view>
+    </view>
+  </view>
+
+  <view>
+    <image src='images/logo@2x.png' class="goods-pic"></image>
+  </view>
+  <image src='images/logo@2x.png' class=""></image>
+
+  <view>
+    <image src='images/a.png' style="width:100rpx;height:100rpx;display:block;"></image>
+  </view>
+  <text>sdlfkjlsdfj <image src='images/a.png' style="width:100rpx;height:100rpx;"></image></text>
+
+  <view>sdfsdfsdfsdf</view>
+  <view style="display:flex;">
+    <view style="width:100px;height:100px;background:red;" hover-class='hover' hover-start-time='2000' hover-stay-time='3000'>aaaaa</view>
+    <view>我是view组件，是独占一行么</view>
+  </view>
+
+<!-- <scroll-view style="background:pink;height:100px;" scroll-y="true">
+  <view>111111111111</view><view>111111111111</view><view>111111111111</view><view>111111111111</view><view>111111111111</view><view>111111111111</view>
+</scroll-view> -->
+
+
+<movable-view style="width:200px;height:50px;">
+  <view>one</view>
+  <view>two</view>
+</movable-view>
+
+<icon type='success'></icon>
+<icon type='success_no_circle'></icon>
+<icon type='info'></icon>
+<icon type='warn'></icon>
+<icon type='waiting'></icon>
+<icon type='cancel'></icon>
+<icon type='download'></icon>
+<icon type='search'></icon>
+<icon type='clear'></icon>
+
+<progress percent="40"  style="width:200px;"></progress>
+
+<button size="default">提交</button>
+<button size="default" type="primary">提交</button>
+<button size="default" type="primary" plain='true' disabled="true" loading="true" open-type='contact'>提交</button>
+  <!-- 微信用户头像 -->
+  <!-- <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view> -->
+
+  <!-- <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
+
+</view>

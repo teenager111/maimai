@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/mine/mine",
+    "pages/index/index",
+    "pages/buycar/buycar"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "yellow",
+    "navigationBarTitleText": "哈哈",
+    "navigationBarTextStyle":"black",
+    "backgroundColor":"#000000"
+  },
+  "tabBar":{
+    "selectedColor": "red",
+    "list":[
+            {
+              "pagePath": "pages/mine/mine",
+              "iconPath": "images/n-catergry.png",
+              "selectedIconPath": "images/n-catergry-act.png",
+              "text": "我的"
+            },
+      {
+        "pagePath":"pages/index/index",
+        "iconPath":"images/n-me.png",
+        "selectedIconPath":"images/n-me-act.png",
+        "text":"首页"
+      },
+      {
+        "pagePath": "pages/buycar/buycar",
+        "iconPath": "images/n-cart.png",
+        "selectedIconPath": "images/n-cart-act.png",
+        "text": "购物车"
+      }
+
+    ]
+  }
+}

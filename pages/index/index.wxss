@@ -1,0 +1,56 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200rpx;
+}
+
+.top-wrap{width: 100%;height:200rpx;background:yellow;text-align: center}
+.top-logo{width: 100rpx;height: 100rpx;}
+.top-image-wrap{display: flex;}
+.top-image-wrap image{margin: 0 auto;margin-bottom: 20rpx;}
+
+.search-btn{width: 94%;height: 40rpx;background:#fff;border-radius: 40rpx;margin: 0 auto;}
+
+.placeholder{font-size: 28rpx;text-align: center;}
+
+.img-list{display: flex;width: 100%; padding-top: 10rpx;}
+.one-item{flex: 1;}
+.one-image{display: flex;}
+.one-text{font-size: 28rpx;text-align: center;}
+.icon{width:100rpx;height:100rpx;margin: 0 auto;}
+
+.goods-one{width: 100%;padding: 0 40rpx;box-sizing: border-box;margin-top: 10px;display: flex;}
+.goods-pic{width:100px;height: 100px;}
+.goods-text{display: inline-block;vertical-align: top}
+.goods-text .top{width: 400rpx;font-size: 14px;display: inline-block;}
+.goods-text .price{color: red;display: inline-block;margin-right: 20rpx;}
+.goods-text .oldprice{font-size: 12px;color: #666;display: inline-block;text-decoration:line-through;}
+.goods-text .sell-number{font-size: 14px;}
+.goods-text .empty-buy{font-size: 14px;background:#999;color: #fff;display: inline-block;padding: 4rpx 20rpx;border-radius:4px; }
+.goods-text .start-buy{font-size: 14px;background:pink;color: #fff;display: inline-block;padding: 4rpx 20rpx;border-radius:4px; }
+
+.wenzi{font-size: 14px;padding: 0 20px}
+.wenzi .price{color: red;margin-right: 20rpx;}
+.wenzi .oldprice{font-size: 12px;color: #666;text-decoration:line-through;}
+.wenzi .sell-number{font-size: 14px;}
+.wenzi .empty-buy{font-size: 14px;background:#999;color: #fff;padding: 4rpx 20rpx;border-radius:4px; }
+.wenzi .start-buy{font-size: 14px;background:pink;color: #fff;padding: 4rpx 20rpx;border-radius:4px; }
+
+
+.hover{background:gray;color:aqua;}
