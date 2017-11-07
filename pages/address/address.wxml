@@ -1,0 +1,9 @@
+<!--pages/address/address.wxml-->
+<template name="blank">
+ <view class='blank'>
+  <view class='blank_img'><image src="../../images/blank.png"></image></view>
+  <view class='blank_button'>去添加</view>
+  </view>
+</template>  
+
+<template is="blank" />  

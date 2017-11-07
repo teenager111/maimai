@@ -1,0 +1,43 @@
+<view class='header'> 
+  <view class='icon'><image src='{{icon}}'></image></view>
+  <view class='name'><text>{{name}}</text>
+  <text>未认证</text></view>
+  <view class='arrow'><image src='../../images/arrow.png'></image></view>
+</view>
+<view class='blank' style='height:8rpx;'></view>
+<view class='nav'>
+  <view class='nav_content'><text class='nav_top'>20</text><text class='nav_bottom'>发布</text></view>
+  <view class='nav_content nav_line'><text class='nav_top'>323</text><text class='nav_bottom'>关注</text></view>
+  <view class='nav_content'><text class='nav_top'>1898</text><text class='nav_bottom'>粉丝</text></view>
+</view>
+<view class='blank' style='height:10rpx;'></view>
+<view class='content'>
+  <view class='bar border'>
+    <view class='content_icon'><image src='../../images/driver.png'></image></view>
+    <view class='content_title'>司机管理</view>
+    <view class='content_arrow' ><image src='../../images/arrow_gray.png'></image></view>
+  </view>
+    <view class='bar border' bindtap='collect'>
+    <view class='content_icon'><image src='../../images/collection.png'></image></view>
+    <view class='content_title'>我的收藏</view>
+    <view class='content_arrow' ><image src='../../images/arrow_gray.png'></image></view>
+  </view>
+      <view class='bar border' bindtap='address'>
+    <view class='content_icon'><image src='../../images/address.png'></image></view>
+    <view class='content_title'>地址管理</view>
+    <view class='content_arrow' ><image src='../../images/arrow_gray.png'></image></view>
+  </view>
+      <view class='bar border'>
+    <view class='content_icon'><image src='../../images/feedback.png'></image></view>
+    <view class='content_title'>意见反馈</view>
+    <view class='content_arrow' ><image src='../../images/arrow_gray.png'></image></view>
+  </view>
+      <view class='bar'>
+    <view class='content_icon'><image src='../../images/invite.png'></image></view>
+    <view class='content_title'>邀请好友</view>
+    <view class='content_arrow' ><image src='../../images/arrow_gray.png'></image></view>
+  </view>
+</view>
+<view class='blank' style='height:335rpx;'>
+<view class='tel' bindtap='call'><text>客服电话： </text><text class='green'>400-021-9666</text></view>
+</view>
